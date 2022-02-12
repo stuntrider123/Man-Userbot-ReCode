@@ -29,7 +29,7 @@ async def man_userbot_on():
             if BOTLOG_CHATID != 0:
                 await bot.send_message(
                     BOTLOG_CHATID,
-                    f"⚡ **Dz-Userbot is running up...**\n",
+                    f"⚡ **Dz-Userbot is running up...**",
                 )
     except BaseException:
         pass
