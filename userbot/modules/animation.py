@@ -58,7 +58,7 @@ async def _(event):
 
 @man_cmd(pattern="sayang$")
 async def _(event):
-    e = await edit_or_reply(event, "I LOVEE YOUUU 💕")
+    e = await edit_or_reply(event, "PRASTI BAU...")
     await e.edit("💝💘💓💗")
     await e.edit("💞💕💗💘")
     await e.edit("💝💘💓💗")
@@ -81,7 +81,7 @@ async def _(event):
     await e.edit("MY BABY")
     await e.edit("💕💞💘💝")
     await e.edit("💘💕💞💝")
-    await e.edit("SAYANG KAMU💞")
+    await e.edit("SAYANG PRASTI")
 
 
 @man_cmd(pattern="dino(?: |$)(.*)")
