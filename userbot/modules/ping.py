@@ -57,18 +57,18 @@ async def get_readable_time(seconds: int) -> str:
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    xx = await edit_or_reply(ping, "**✣**")
-    await xx.edit("**✣✣**")
-    await xx.edit("**✣✣✣**")
-    await xx.edit("**✣✣✣✣**")
+    xx = await edit_or_reply(ping, "**D**")
+    await xx.edit("**Dz**")
+    await xx.edit("**DzL**")
+    await xx.edit("**⚡DzLyzz⚡**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
     await xx.edit(
-        f"**PONG!!🏓**\n"
-        f"✣ **Pinger** - `%sms`\n"
+        f"**⚡ Dz**\n"
+        f"✣ **🏓Pong!!** - `%sms`\n"
         f"✣ **Uptime -** `{uptime}` \n"
-        f"**✦҈͜͡Owner :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"**✦҈͜͡ ** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
@@ -80,7 +80,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"**PONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**PONG!! ⚡**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
 
@@ -88,20 +88,20 @@ async def _(ping):
 async def _(ping):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    lping = await edit_or_reply(ping, "**★ PING ★**")
-    await lping.edit("**★★ PING ★★**")
-    await lping.edit("**★★★ PING ★★★**")
-    await lping.edit("**★★★★ PING ★★★★**")
-    await lping.edit("**✦҈͜͡➳ PONG!**")
+    lping = await edit_or_reply(ping, "**••D••**")
+    await lping.edit("**••Dz••**")
+    await lping.edit("**••DzL••**")
+    await lping.edit("**••xDeeps••**")
+    await lping.edit("**⚡**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
     await lping.edit(
-        f"❃ **Ping !!** "
+        f"❃ **⚡Pong !!** "
         f"`%sms` \n"
         f"❃ **Uptime -** "
         f"`{uptime}` \n"
-        f"**✦҈͜͡➳ Master :** [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"**✦҈͜͡➳ ** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
@@ -191,10 +191,10 @@ async def _(speed):
 @man_cmd(pattern="pong$")
 async def _(pong):
     start = datetime.now()
-    xx = await edit_or_reply(pong, "`Sepong.....🏓`")
+    xx = await edit_or_reply(pong, "`Ping.....🏓`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await xx.edit("🏓 **Ping!**\n`%sms`" % (duration))
+    await xx.edit("⚡ **Pong!**\n`%sms`" % (duration))
 
 
 # KALO NGEFORK absen ini GA USAH DI HAPUS YA GOBLOK 😡
